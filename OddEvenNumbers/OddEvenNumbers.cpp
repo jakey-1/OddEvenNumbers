@@ -23,7 +23,7 @@ bool IsEven(int number)
 
 bool IsOdd(int number)
 {
-    return number % 2 != 0;
+    return !IsEven(number);
 }
 
 int main()
